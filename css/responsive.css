@@ -243,6 +243,14 @@ NB: This is the responsive stylesheet of this theme.
         font-size: 15px;
     }
 
+    .post-skillbar-next{
+        color: #fff;
+        padding: 30px 17px 0px 17px;
+        font-size: 17px;
+        list-style: "⏭️";
+
+  }
+
     .statistic-area .item h2 {
         font-size: 35px;
     }

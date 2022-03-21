@@ -114,7 +114,7 @@ img {
     color: var(--main_color);
 }
 .section-title h2 {
-    font-size: 40px;
+    font-size: 33px;
     color: #262626;
     letter-spacing: 1px;
     font-weight: 400;
@@ -840,18 +840,18 @@ canvas{
     border-radius: 5px;
 }
 
-
 .row .post-skillbar-next{
   color: #fff;
-  margin-left: 20px;
+  font-size: 17px;
+
+}
+.row .post-skillbar-next li{
+  color: #fff;
+  font-size: 17px;
+  list-style: "⏭️";
+  margin : 10px 0;
 }
 
-.row .post-skillbar-next .post-title {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-    color: #fff;
-}
 /*--------- Skills area ends --------------*/
 
 /*----------- 9. Portfolio area Starts --------*/
@@ -1039,9 +1039,10 @@ ul.port-nav-list li a.active {
     margin-bottom: -30px;
 }
 
+/*
 .resumes {
     list-style: none;
-}
+}*/
 
 .resumes li {
     padding: 20px;
@@ -1071,6 +1072,14 @@ ul.port-nav-list li a.active {
     position: relative;
     z-index: 1;
 }
+
+.resumes img{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70px;
+	height: auto; display: inline-block;
+}
+
 
 /*-------- Experience area ends -------------*/
 
