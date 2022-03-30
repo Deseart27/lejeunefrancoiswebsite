@@ -88,7 +88,7 @@
                         <div class="navbar-collapse collapse">
                             <nav><!--TODO : redirect to index.html with right anchors -->
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a class="smooth-menu" href="index.html">Accueil</a></li>
+                                    <li><a href="index.html">Accueil</a></li>
                                     <li><a href="index.html#about">À propos</a></li>
                                     <li><a href="index.html#portfolio">Projets</a></li>
                                     <li><a href="index.html#resume">Expériences</a></li>
@@ -128,9 +128,9 @@
             <div class="my-5 text-center text-xl-start">
               <h1 class="display-5 fw-bolder text-white mb-2">Agence Scrapper</h1>
               <br>
-              <p>Agence Scrapper est le premier scrapper que j'ai déployé
-                dans le but <b>d'automatiser et d'optimiser ma leadgen</b>, à savoir obtenir le contact
-                qualifié d'agents immobiliers</p>
+              <p>Agence Scrapper est le premier scrapper (en Python) que j'ai déployé
+                dans le but <b>d'automatiser et d'optimiser ma leadgen</b>, à savoir l'obtention du contact
+                qualifié d'agents immobiliers.</p>
                 <p>Facilement scalable, il peut être adapté en quelques rapides modifications
                   aux différents sites des principaux réseaux d'agences immobilières.</p>
 
@@ -158,33 +158,33 @@
           <div class="col-lg-8">
             <div class="row gx-5 row-cols-1 row-cols-md-2">
               <div class="col mb-5 h-100">
-                <div class="logos-mini"><img src="images/logos/django.png"></div>
+                <div class="logos-mini"><img src="images/logos/selenium.png"></div>
 
-                <h2 class="h5">Django</h2>
-                <p class="mb-0">Grâce à son framework REST, Django nous a permis de créer une API flexible
-                  appelant un modèle de ML et un scrapper intelligent
+                <h2 class="h5">Selenium</h2>
+                <p class="mb-0">Grâce à son WebDriver "ChromeDriver", Selenium m'a permis de simuler le comportement
+                  d'un navigateur web
                 </p>
               </div>
               <div class="col mb-5 h-100">
-                <div class="logos-mini"><img src="images/logos/nltk.png"></div>
+                <div class="logos-mini"><img src="images/logos/bs.png"></div>
 
-                <h2 class="h5">Machine Learning</h2>
-                <p class="mb-0">Les conditions générales récupérées sont nettoyées et résumées via Sumy,
-                  une librarie basée sur NLTK.</p>
+                <h2 class="h5">Beautifulsoup</h2>
+                <p class="mb-0">Les codes sources récupérés ont été analysés, nettoyés et
+                extraits avec Beautifulsoup, une library qui permet, via des parsers dédiés, de chercher et modifier des éléments précis dans une "soup".</p>
               </div>
               <div class="col mb-5 mb-md-0 h-100">
-                <div class="logos-mini"><img src="images/logos/heroku.png"></div>
+                <div class="logos-mini"><img src="images/logos/bouncer.png"></div>
 
-                <h2 class="h5">Déploiement via Heroku et Gcloud</h2>
-                <p class="mb-0">Pour des raisons de performance et de maintanabilité, nous avons scindé le
-                  déploiement sur deux hosts : Heroku (scrapper) et Gcloud(modèle de ML).</p>
+                <h2 class="h5">Nettoyage des mails récupérés via Bouncer</h2>
+                <p class="mb-0">Les mails personnels des agents n'étant pas visibles publiquement, j'ai passé leurs informations
+                  de contact dans Bouncer afin de déterminer des mails valides (3400+ mails exploitables).
+                </p>
               </div>
               <div class="col h-100">
-                <div class="logos-mini"><img src="images/logos/selenium.png"></div>
-                <h2 class="h5">Selenium</h2>
-                <p class="mb-0">Grâce à son WebDriver "ChromeDriver", Selenium nous a permis de créer un scrapper
-                  intelligent,
-                  lequel détecte les conditions générales d'un site et les extrait automatiquement.</p>
+                <div class="logos-mini"><img src="images/logos/lemlist.png"></div>
+                <h2 class="h5">Lemlist</h2>
+                <p class="mb-0">Deux séquences de mails distinctes, considérant le statut du collaborateur
+                  (décisionnaire ou non), ont été envoyées aux contacts scrappés.</p>
               </div>
             </div>
           </div>
@@ -195,38 +195,31 @@
       <div class="container px-5 my-5">
         <div class="row gx-5">
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h3>Mon rôle au sein du projet</h3>
+            <h3>Résultats du projet</h3>
           </div>
           <div class="col-lg-8">
             <div class="row gx-5 row-cols-1 row-cols-md-2">
               <div class="col mb-5 h-100">
-                <div class="logos-mini"><img src="images/logos/backend.png"></div>
-
-                <h2 class="h5">Architecture du back-end</h2>
-                <p class="mb-0">Réalisation de l'<a href="https://docs.google.com/drawings/d/1U2OK6CWxVGmv7l93lW3AX0MkGS9PpE3fyGA4-8GD_6w">architecture du back-end</a>, à savoir organiser
-                  la communication entre notre extension (JS), le scrapper intelligent, notre base de données
-                  (GoogleBigQuery) et notre modèle de Machine Learning.
+                <div class="logos-mini"><img src="images/logos/leadgen.png"></div>
+                <h2 class="h5">8500+ contacts identifiés</h2>
+                <p class="mb-0">Le scrapper a été lancé sur les sites et sous-sites de 3 grands réseaux d'agences
+                  immobilières, ce qui a extrait le contact de plus de 8500 personnes (nom, prénom, agence, poste et email)
                 </p>
               </div>
               <div class="col mb-5 h-100">
-                <div class="logos-mini"><img src="images/logos/API.png"></div>
+                <div class="logos-mini"><img src="images/logos/emails.png"></div>
 
-                <h2 class="h5">Création des APIs</h2>
-                <p class="mb-0">Création de deux APIs dédiées via le framework Django REST. Chaque API possède
-                  des endpoints précis & dédiés (détection des conditions générales, extraction,
-                   vérification dans GBQ, nettoyage du texte, appel du modèle de ML...) </p>
+                <h2 class="h5">5400+ adresses emails valides récupérées</h2>
+                <p class="mb-0">Pour les adresses email non diffusées publiquemenent, j'ai créé un script de
+                  concaténation de leurs informations personnelles, et les ai vérifiées via Bouncer. </p>
               </div>
               <div class="col mb-5 mb-md-0 h-100">
-                <div class="logos-mini"><img src="images/logos/deploy.png"></div>
+                <div class="logos-mini"><img src="images/logos/sales.png"></div>
 
-                <h2 class="h5">Déploiement de la solution</h2>
-                <p class="mb-0">Mise en production du scrapper intelligent sur Heroku via Django for Heroku +
-                  gunicorn, et mise en production du modèle de ML via Gcloud Environnement flexible App Engine</p>
-              </div>
-              <div class="col h-100">
-                <div class="logos-mini"><img src="images/logos/slides.png"></div>
-                <h2 class="h5">Préparation de la présentation</h2>
-                <p class="mb-0">Organisation et design des slides de présentation du projet via Canva.</p>
+                <h2 class="h5">Création de campagnes d'attaque basées sur les leads identifiés</h2>
+                <p class="mb-0">Deux campagnes de prospection ont été "designées" et s'organisent de cette manière :
+                   trois mails de cold emailing sur 2 semaines, assortis à plusieurs appels de cold-calling, lesquels redirigent vers
+                  des webinaires dédiés afin d'optimiser le temps de démonstration par prospect. </p>
               </div>
             </div>
           </div>
