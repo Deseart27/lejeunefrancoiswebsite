@@ -128,12 +128,10 @@
             <div class="my-5 text-center text-xl-start">
               <h1 class="display-5 fw-bolder text-white mb-2">Terms and conditions</h1>
               <br>
-              <p>&#127468;&#127463; version coming soon</p>
-              <p>Projet réalisé dans le cadre de la validation
-                du bootcamp Data Science de Le wagon &#128643;</p>
-              <p>Terms and conditions est une extension Chrome qui <b>détecte
-                intelligement les conditions générales
-                d'un site</b> et les <b>synthétise en quelques lignes</b> grâce à un modèle de <b>Machine learning dédié</b>. </p>
+              <p>Project carried out as part of the validation
+                from the Data Science bootcamp of Le wagon &#128643;</p>
+              <p>Terms and conditions is a chrome extension that<b>
+                intelligently detects the terms and conditions of a website</b> and <b>summarizes it in a few lines</b> thanks to a dedicated <b>Machine learning model</b>. </p>
 
             </div>
           </div>
@@ -154,7 +152,7 @@
       <div class="container px-5 my-5">
         <div class="row gx-5">
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h3>Quelques détails techniques</h3>
+            <h3>Some technical details</h3>
           </div>
           <div class="col-lg-8">
             <div class="row gx-5 row-cols-1 row-cols-md-2">
@@ -162,30 +160,29 @@
                 <div class="logos-mini"><img src="images/logos/django.png"></div>
 
                 <h2 class="h5">Django</h2>
-                <p class="mb-0">Grâce à son framework REST, Django nous a permis de créer une API flexible
-                  appelant un modèle de ML et un scrapper intelligent
+                <p class="mb-0">Thanks to its REST framework, Django allowed us to create a flexible API
+                  calling an ML model and a smart scrapper.
                 </p>
               </div>
               <div class="col mb-5 h-100">
                 <div class="logos-mini"><img src="images/logos/nltk.png"></div>
 
                 <h2 class="h5">Machine Learning</h2>
-                <p class="mb-0">Les conditions générales récupérées sont nettoyées et résumées via Sumy,
-                  une librairie basée sur NLTK.</p>
+                <p class="mb-0">Terms and conditions retrieved are cleaned and summarized via Sumy,
+                  a library based on NLTK.</p>
               </div>
               <div class="col mb-5 mb-md-0 h-100">
                 <div class="logos-mini"><img src="images/logos/gcloud.png"></div>
 
-                <h2 class="h5">Déploiement via Heroku et Gcloud</h2>
-                <p class="mb-0">Pour des raisons de performance et de maintanabilité, nous avons scindé le
-                  déploiement sur deux hosts : Heroku (scrapper) et Gcloud (modèle de ML).</p>
+                <h2 class="h5">Deployment on Heroku & Gcloud</h2>
+                <p class="mb-0">For performance and maintainability reasons,
+                   we split the deployment on two hosts: Heroku (scrapper) and Gcloud (ML model).</p>
               </div>
               <div class="col h-100">
                 <div class="logos-mini"><img src="images/logos/selenium.png"></div>
                 <h2 class="h5">Selenium</h2>
-                <p class="mb-0">Grâce à son WebDriver "ChromeDriver", Selenium nous a permis de créer un scrapper
-                  intelligent,
-                  lequel détecte les conditions générales d'un site et les extrait automatiquement.</p>
+                <p class="mb-0">Thanks to its "ChromeDriver" WebDriver, Selenium allowed us to create a smart scrapper
+                  which detects the terms and conditions of a website and extracts them automatically.</p>
               </div>
             </div>
           </div>
@@ -196,38 +193,42 @@
       <div class="container px-5 my-5">
         <div class="row gx-5">
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h3>Mon rôle au sein du projet</h3>
+            <h3>My role in the project</h3>
           </div>
           <div class="col-lg-8">
             <div class="row gx-5 row-cols-1 row-cols-md-2">
               <div class="col mb-5 h-100">
                 <div class="logos-mini"><img src="images/logos/backend.png"></div>
 
-                <h2 class="h5">Architecture du back-end</h2>
-                <p class="mb-0">Réalisation de l'<a href="https://docs.google.com/drawings/d/1U2OK6CWxVGmv7l93lW3AX0MkGS9PpE3fyGA4-8GD_6w">architecture du back-end</a>, à savoir organiser
-                  la communication entre notre extension (JS), le scrapper intelligent, notre base de données
-                  (GoogleBigQuery) et notre modèle de Machine Learning.
+                <h2 class="h5">Back-end architecture</h2>
+                <p class="mb-0">Realization of the
+                  <a href="https://docs.google.com/drawings/d/1U2OK6CWxVGmv7l93lW3AX0MkGS9PpE3fyGA4-8GD_6w">architecture of the back-end</a>,
+                  it's to say : to organize the communication between our extension (JS), the smart scrapper (Python), our database (GoogleBigQuery)
+                  and our Machine Learning model.
                 </p>
               </div>
               <div class="col mb-5 h-100">
                 <div class="logos-mini"><img src="images/logos/API.png"></div>
 
-                <h2 class="h5">Création des APIs</h2>
-                <p class="mb-0">Création de deux APIs dédiées via le framework Django REST. Chaque API possède
-                  des endpoints précis & dédiés (détection des conditions générales, extraction,
-                   vérification dans GBQ, nettoyage du texte, appel du modèle de ML...) </p>
+                <h2 class="h5">Creation of APIs</h2>
+                <p class="mb-0">Creation of two dedicated APIs with Django REST framework. Each API get
+                  specific endpoints : smart detection of the terms and condition (accuracy : 85%), extraction,
+                  verification in GBQ, text cleaning, ML model calling...
+                </p>
               </div>
               <div class="col mb-5 mb-md-0 h-100">
                 <div class="logos-mini"><img src="images/logos/deploy.png"></div>
 
-                <h2 class="h5">Déploiement de la solution</h2>
-                <p class="mb-0">Mise en production du scrapper intelligent sur Heroku via Django for Heroku +
-                  gunicorn, et mise en production du modèle de ML via Gcloud Environnement flexible App Engine</p>
+                <h2 class="h5">Deployment of the solution</h2>
+                <p class="mb-0">
+                  Scrapper deployment on Heroku with Django for Heroku + gunicorn, and ML model deployment via 
+                  Gcloud Environnement flexible App Engine.</p>
               </div>
               <div class="col h-100">
                 <div class="logos-mini"><img src="images/logos/slides.png"></div>
-                <h2 class="h5">Préparation de la présentation</h2>
-                <p class="mb-0">Organisation et design des slides de présentation du projet via Canva.</p>
+                <h2 class="h5">Preparation of the presentation</h2>
+                <p class="mb-0">
+                  Organisation and design of the slides of the presentation with Canva + Photoshop.</p>
               </div>
             </div>
           </div>
