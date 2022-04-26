@@ -10862,7 +10862,19 @@ p {
   max-width:40px;
 }
 
-.youtube-video{
+
+.video-integration-yt h3 {
   text-align: center;
+  font-size:25px;
+  padding-bottom: 28px;
 
 }
+
+
+
+
+.videoyoutube { overflow:hidden; padding-bottom:56.25%; position:relative; height:0;}
+
+.videoyoutube iframe { left:0; top:0; height:100%; width:100%; position:absolute; }
+
+  
